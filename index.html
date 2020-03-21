@@ -11,31 +11,47 @@
 }
 body {
 	color: #000;
-	background: #EBEFFF;
+	background: #EBEFFF url('img/background.jpg') no-repeat;
+  background-size: contain;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
+@media screen and (min-width: 388px) {
+  body {font-size:11px !important;}
+}
+
+@media screen and (min-width: 768px) {
+  body {font-size:14px !important;}
+  .container {width: 50%!important;}
+}
+@media screen and (min-width: 1200px) {
+  body {font-size:16px !important;}
+  .container {width: 50%!important;}
+}
+
 .container {
   width: 50%;
-  margin: 0 auto;
-  padding: 10em 1em;
+  padding: 10em 6em;
 }
 h1 {
   padding-top: 1em;
-  font-size: 72px;
+  font-size: 4.5em;
   font-weight: bold;
-  line-height: 72px;
+  line-height: 1;
   letter-spacing: -1;
 }
 h2 {
-  font-size: 36px;
-  line-height: 50px;
+  font-size: 2.25em;
+  line-height: 1.2em;
   letter-spacing: -0.05em;
   font-weight: normal;
 }
+
 h5 {
   text-transform: uppercase;
   padding-bottom: 1em;
   padding-top: 3em;
+  font-size: 1em;
 }
 #join {
   padding-top: 3em;
@@ -55,8 +71,8 @@ p {
 }
 .inside {
   width: 50%;
-  margin: 0 auto;
   padding-top: 4em;
+  margin: 0em 6em;
 }
 </style>
 </head>
