@@ -78,6 +78,9 @@ a:hover {
 ul, li {
   list-style-type: none;
 }
+li {
+	line-height: 2.25em;
+}
 
 /* FORMS */
 
@@ -171,7 +174,7 @@ input {
 .credit-footer a {
   padding-left: 10px;
   font-size: 12px;
-  color: black;
+  color: #999999;
 }
   .credit-footer a:hover {
     color: #116AF2;
