@@ -1,95 +1,166 @@
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8">
-<meta name="description" content="Klink">
-<meta name="keywords" content="remote, virtual, meetings">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Klink - Match • Meet • Repeat</title>
-<style type="text/css">
-* {
-  padding: 0;
-  margin: 0;
-}
-body {
-	color: #000;
-	background: #EBEFFF url('img/background.jpg') no-repeat;
-  background-size: contain;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
-}
-@media screen and (max-width: 468px) {
-  body {font-size:11px !important;}
-  .container {width: 80%!important;}
-}
-
-@media screen and (min-width: 768px) {
-  body {font-size:14px !important;}
-  .container {width: 50%!important;}
-}
-@media screen and (min-width: 1200px) {
-  body {font-size:16px !important;}
-  .container {width: 50%!important;}
-}
-
-.container {
-  width: 50%;
-  padding: 10em 6em;
-}
-h1 {
-  padding-top: 1em;
-  font-size: 4.5em;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: -1;
-}
-h2 {
-  font-size: 2.25em;
-  line-height: 1.2em;
-  letter-spacing: -0.05em;
-  font-weight: normal;
-}
-
-h5 {
-  text-transform: uppercase;
-  padding-bottom: 1em;
-  padding-top: 3em;
-  font-size: 1em;
-}
-#join {
-  padding-top: 3em;
-}
-#footer {
-  background: white;
-  height: 500px;
-  position: relative;
-  bottom: 0px;
-  width: 100%;
-}
-p {
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: -0.05em;
-  color: #A8A8A8;
-}
-.inside {
-  width: 50%;
-  padding-top: 4em;
-  margin: 0em 6em;
-}
-</style>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klink - Match • Meet • Repeat</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/tooltips.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <script type="text/javascript">
+  $(document).foundation();
+    function toggleDarkLight() {
+      var body = document.getElementById("body");
+      var currentClass = body.className;
+      body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+    }
+  </script>
 </head>
+<body id="body">
+  <!-- <div class="switch" name="dark_light" onclick="toggleDarkLight()" title="Toggle Dark/light Mode" data-tooltip  data-position="left" data-alignment="center"></div> -->
 
-<body>
-<div class="container">
-	<img src="img/klink-logo.svg">
-  <h1>Meet new friends over video and a beverage.</h1>
-  <div id="join">
-    <h5>HOW IT WORKS</h5>
-    <h2>Match, meet, and repeat - over your favorite drink of choice. We recommend something soothing, like coffee, alcohol, tea, kombucha.</h2>
+  <!-- <div class="switch tooltip-left" name="dark_light" onclick="toggleDarkLight()" title="Toggle Dark/light Mode" data-tooltip="Dark/Light"></div> -->
+
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x">
+    <div class="large-12 cell hero text-center">
+      <img src="img/klink-logo.svg">
+    </div>
+  </div>
+
+  <div class="grid-x grid-padding-x">
+    <div class="small-10 medium-8 cell hero">
+
+      <h1>Expand your professional network, on your schedule, over video.</h1>
+      <div id="join">
+        <h5>HOW IT WORKS</h5>
+        <h2>Match, meet, repeat - whether it's coffee, a pint, or your favorite pinot, sip your favorite drink in your favorite place.</h2>
+
+        <a href="#early-access" class="button round">Get Early Access</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-x grid-padding-x padding-vert-large">
+    <div class="medium-6 cell">
+      <img src="img/feature-section.png">
+    </div>
+    <div class="medium-5 medium-offset-1 cell">
+      <h5>Anonymously</h5>
+      <h2>Match, meet, and decide if you stay in touch.</h2>
+    </div>
+  </div>
+
+  <div class="grid-x grid-padding-x padding-vert-large">
+    <div class="small-10 small-offset-1 medium-3 medium-offset-1 cell">
+      <h3 class="primary">Meet Over Video</h3>
+      <p>Schedule video chats in advance from your favorite spot with your favorite drink. No rushing through traffic or trying to find parking.</p>
+    </div>
+    <div class="small-10 small-offset-1 medium-3 medium-offset-1 cell">
+      <h3 class="primary">Mutual Interests</h3>
+      <p>Based on who you're looking to connect with, Klink provides you with professionals that also want to meet.</p>
+    </div>
+    <div class="small-10 small-offset-1 medium-3 medium-offset-1 cell">
+      <h3 class="primary">Klink!</h3>
+      <p>Grab your favorite beverage and chat away. You'll also receive exclusive offers and discounts from our participating beverage partners.</p>
+    </div>
+  </div>
+
+  <div class="grid-x grid-padding-x">
+    <div class="large-12 cell hero text-center">
+      <h1>Start Networking Today</h1>
+    </div>
+  </div>
+
+</div>
+
+<div id="feature" class="primary-bg">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="small-10 small-offset-1 medium-6 medium-offset-3 cell text-center padding-vert-large">
+        <div class="product-card text-left">
+          <div class="grid-x grid-padding-x">
+            <div class="small-10 small-offset-1 padding-vert-medium cell">
+
+              <label>Name
+                <input type="text" placeholder="John Doe">
+              </label>
+
+              <label>Email Address
+                <input type="text" placeholder="john@email.com">
+              </label>
+
+              <label>City
+                <input type="text" placeholder="Minneapolis">
+              </label>
+
+              <label>State
+                <select>
+                  <option value="husker">Minnesota</option>
+                  <option value="starbuck">Wisconsin</option>
+                  <option value="hotdog">Illinois</option>
+                  <option value="apollo">Iowa</option>
+                </select>
+              </label>
+
+              <fieldset class="large-7 cell">
+                <legend>Topics of Interest</legend>
+                <input id="sales" type="checkbox"><label for="sales">Sales</label>
+                <input id="marketing" type="checkbox"><label for="marketing">Marketing</label>
+                <input id="design" type="checkbox"><label for="design">Design</label>
+                <input id="startups" type="checkbox"><label for="startups">Startups</label>
+                <input id="healthcare" type="checkbox"><label for="healthcare">Healthcare</label>
+                <input id="fintech" type="checkbox"><label for="fintech">Financial Technology</label>
+                <input id="non-profits" type="checkbox"><label for="non-profits">Non-Profits</label>
+              </fieldset>
+
+              <div class="input-group">
+                <span class="input-group-label">linkedin.com/in/</span>
+                <input class="input-group-field" type="number">
+              </div>
+              <a href="#early-access" class="button round full-width">Introduce me to new people!</a>
+            </div>
+          </div>
+        </div>
+        <img src="img/klink-badge.jpg" width="190" class="padding-vert-large">
+      </div>
+    </div>
   </div>
 </div>
+
 <div id="footer">
-  <div class="inside">
-   © 2020 Klink. All Rights Reserved.
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="large-2 cell"><img src="img/klink-logo.svg" alt="Klink | Match. Meet. Repeat."></div>
+      <div class="large-4 large-offset-1 cell">
+        Join our newsletter and stay up to date on new benefits, features, and releases!
+      </div>
+      <div class="large-2 large-offset-2 cell">
+        <ul class="grid-x">
+          <li class="large-12"><a href="">For Organizations</a></li>
+          <li class="large-12"><a href="">Our Story</a></li>
+          <li class="large-12"><a href="">Partners</a></li>
+          <li class="large-12"><a href="">Press Kit</a></li>
+          <li class="large-12"><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid-x grid-padding-x credit-footer">
+      <div class="small-6 left cell">© 2020 Klink. All Rights Reserved.</div>
+      <div class="small-6 right text-right cell">
+        <a href="">Privacy Policy</a>
+        <a href="">Terms & Conditions</a>
+      </div>
+    </div>
   </div>
 </div>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
 </body>
+</html>
