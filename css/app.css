@@ -1,6 +1,6 @@
 body {
 	color: #000;
-	background: #EBEFFF url('../img/background.jpg') no-repeat;
+	background: #EBEFFF /* url('../img/background.jpg') no-repeat */;
   background-size: contain;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -38,7 +38,7 @@ h1 {
   letter-spacing: -1;
 }
 h2 {
-  font-size: 2.25em;
+  font-size: 2.625em;
   line-height: 1.2em;
   letter-spacing: -0.05em;
   font-weight: normal;
@@ -88,12 +88,12 @@ input {
   background: #F0F0F1 !important;
   border-radius: 10px !important;
   border: none !important;
-
 }
 
+
 .button {
-  background: #116AF2;
-  font-size: 1em;
+  background: #116AF2 !important;
+  font-size: 1.25em;
   padding: 1em 2em;
   margin: 2em 0em;
 }
@@ -117,7 +117,10 @@ input {
 .full-width {
   width: 100%;
 }
-
+.icon {
+	padding: 1.25em;
+	height:7.5em;
+}
 /* SECTIONS */
 
 .hero {
@@ -151,7 +154,12 @@ input {
   position: relative;
   top: -10px;
 }
-
+.overlap-box {
+	margin-top: -15em;
+}
+.overlap-background {
+	margin-top: 10em;
+}
 
 /* FOOTER */
 
@@ -159,7 +167,7 @@ input {
   background: #ffffff;
   color: #999999;
   width: 100%;
-  padding-top: 8em;
+  /* padding-top: 8em; */
 }
 
 .credit {
