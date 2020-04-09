@@ -101,7 +101,7 @@ input {
     background: #000;
   }
 	#mc_embed_signup .mc-field-group.input-group ul {
-    margin: 37px -45%;
+    margin: 37px -45% !important;
 	}
 /* UTILS */
 .round {
