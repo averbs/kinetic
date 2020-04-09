@@ -81,6 +81,9 @@ ul, li {
 li {
 	line-height: 2.25em;
 }
+label, .mc-field-group strong {
+	font-size: 1.3rem !important;
+}
 
 /* FORMS */
 
@@ -101,7 +104,7 @@ input {
     background: #000;
   }
 	#mc_embed_signup .mc-field-group.input-group ul {
-    margin: 37px -45% !important;
+    margin: 37px -62% !important;
 	}
 /* UTILS */
 .round {
@@ -179,11 +182,11 @@ input {
 .credit-footer {
   margin-top: 8em;
   padding: 2em 0em;
-  font-size: 12px;
+  font-size: 1em;
 }
 .credit-footer a {
   padding-left: 10px;
-  font-size: 12px;
+  font-size: 1em;
   color: #999999;
 }
   .credit-footer a:hover {
