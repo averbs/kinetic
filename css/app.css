@@ -1,17 +1,18 @@
 body {
 	color: #000;
-	background: #EBEFFF /* url('../img/background.jpg') no-repeat */;
+	background: ##ffffff /* url('../img/background.jpg') no-repeat */;
   background-size: contain;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
+  padding-top: 2em;
 }
 
 /* COLORS */
 
 .primary {color: #116AF2;}
 .primary-bg {background-color: #116AF2;}
-.secondary {color: #E1EDFF;}
-.secondary-bg {background-color: #E1EDFF;}
+.secondary {color: #ffffff;}
+.secondary-bg {background-color: #ffffff;}
 .light-gray {color: #999999;}
 .light-gray-bg {background-color: #999999;}
 
@@ -38,7 +39,7 @@ h1 {
   letter-spacing: -1;
 }
 h2 {
-  font-size: 2.625em;
+  font-size: 2.225em;
   line-height: 1.2em;
   letter-spacing: -0.05em;
   font-weight: normal;
@@ -180,8 +181,9 @@ input {
   font-size: 13px;
 }
 .credit-footer {
-  margin-top: 8em;
+  margin-top: 16em;
   padding: 2em 0em;
+  width: 100%;
   font-size: 1em;
 }
 .credit-footer a {
